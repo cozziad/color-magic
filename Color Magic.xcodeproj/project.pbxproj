@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7524CB8422BC8525009CA13A /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7524CB8322BC8525009CA13A /* ColorPickerVC.swift */; };
+		7524CB8622BC886B009CA13A /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7524CB8522BC886B009CA13A /* ColorTransferDelegate.swift */; };
 		7563FAD1213817EA00FB2DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563FAD0213817EA00FB2DAD /* AppDelegate.swift */; };
 		7563FAD3213817EA00FB2DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563FAD2213817EA00FB2DAD /* ViewController.swift */; };
 		7563FAD6213817EA00FB2DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563FAD4213817EA00FB2DAD /* Main.storyboard */; };
 		7563FAD8213817ED00FB2DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7563FAD7213817ED00FB2DAD /* Assets.xcassets */; };
 		7563FADB213817ED00FB2DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563FAD9213817ED00FB2DAD /* LaunchScreen.storyboard */; };
-		7563FAE32138211300FB2DAD /* ColorPickerVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563FAE22138211300FB2DAD /* ColorPickerVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7524CB8322BC8525009CA13A /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		7524CB8522BC886B009CA13A /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 		7563FACD213817E900FB2DAD /* Color Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7563FAD0213817EA00FB2DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7563FAD2213817EA00FB2DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		7563FAD7213817ED00FB2DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7563FADA213817ED00FB2DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7563FADC213817ED00FB2DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7563FAE22138211300FB2DAD /* ColorPickerVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 				7563FAD0213817EA00FB2DAD /* AppDelegate.swift */,
 				7563FAD2213817EA00FB2DAD /* ViewController.swift */,
 				7563FAD4213817EA00FB2DAD /* Main.storyboard */,
-				7563FAE22138211300FB2DAD /* ColorPickerVCViewController.swift */,
 				7563FAD7213817ED00FB2DAD /* Assets.xcassets */,
 				7563FAD9213817ED00FB2DAD /* LaunchScreen.storyboard */,
 				7563FADC213817ED00FB2DAD /* Info.plist */,
 				7524CB8322BC8525009CA13A /* ColorPickerVC.swift */,
+				7524CB8522BC886B009CA13A /* ColorTransferDelegate.swift */,
 			);
 			path = "Color Magic";
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 			files = (
 				7524CB8422BC8525009CA13A /* ColorPickerVC.swift in Sources */,
 				7563FAD3213817EA00FB2DAD /* ViewController.swift in Sources */,
-				7563FAE32138211300FB2DAD /* ColorPickerVCViewController.swift in Sources */,
+				7524CB8622BC886B009CA13A /* ColorTransferDelegate.swift in Sources */,
 				7563FAD1213817EA00FB2DAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

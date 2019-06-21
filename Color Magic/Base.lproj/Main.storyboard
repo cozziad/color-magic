@@ -40,22 +40,22 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9AP-sq-yVI">
                             <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <segue destination="bMP-7r-oB0" kind="show" id="VEG-S9-tiY"/>
+                                <segue destination="bMP-7r-oB0" kind="show" identifier="presentColorPickerVC" id="VEG-S9-tiY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="colorNameLbl" destination="XhG-HH-e6L" id="IbL-ku-8vS"/>
+                        <outlet property="colorNameLbl" destination="XhG-HH-e6L" id="A9Z-DM-UGG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
-        <!--Color PickerVC View Controller-->
+        <!--Color PickerVC-->
         <scene sceneID="myg-I8-z5d">
             <objects>
-                <viewController id="bMP-7r-oB0" customClass="ColorPickerVCViewController" customModule="Color_Magic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bMP-7r-oB0" customClass="ColorPickerVC" customModule="Color_Magic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="crj-zY-PRj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,6 +71,7 @@
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="colorBtnWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="dbD-R6-zXR"/>
                                             <action selector="colorButtonWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="LlJ-5S-9gP"/>
                                         </connections>
                                     </button>
@@ -82,6 +83,7 @@
                                             <color key="titleColor" red="1" green="0.98525404549999995" blue="0.9852174749" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="colorBtnWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="KFg-pS-vXf"/>
                                             <action selector="colorButtonWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="3GJ-Oh-Kqb"/>
                                         </connections>
                                     </button>
@@ -93,6 +95,7 @@
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="colorBtnWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="Rpz-8j-jrr"/>
                                             <action selector="colorButtonWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="MH5-Xk-zp0"/>
                                         </connections>
                                     </button>
@@ -104,6 +107,7 @@
                                             <color key="titleColor" red="1" green="0.98525404549999995" blue="0.9852174749" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="colorBtnWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="VSj-6d-1ka"/>
                                             <action selector="colorButtonWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="5I1-Ce-Qgq"/>
                                         </connections>
                                     </button>
@@ -115,6 +119,7 @@
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="colorBtnWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="PAC-fx-itV"/>
                                             <action selector="colorButtonWasPressedWithSender:" destination="bMP-7r-oB0" eventType="touchUpInside" id="6la-w2-wqq"/>
                                         </connections>
                                     </button>
